@@ -1,5 +1,5 @@
 # Sunbase Data API Integration
-This repository contains the implementation of a project that successfully integrates with Sunbase Data's APIs. The APIs provided include user authentication, customer creation, retrieval of customer lists, deletion of customers, and updating customer information.
+This repository contains the implementation of a project that successfully integrates with Sunbase Data's APIs. The APIs provided include user authentication, customer creation, retrieval of customer lists, deletion of customers, and editing customer information.
 
 https://github.com/jangir02vishal/Sunbase-Data-Assignment/assets/136950731/3e931fbe-8e76-48f9-a531-27fd3bbba8df
 
@@ -23,10 +23,10 @@ https://github.com/jangir02vishal/Sunbase-Data-Assignment/assets/136950731/3e931
    ```
 
 5. **Run the Application:**
-   Open `index.html` in a web browser or host the project using a local server.
+   Open `login.html` in a web browser or host the project using a local server.
 
 6. **Test the API Integration:**
-   Use the implemented features to test user authentication, customer creation, retrieval, deletion, and updating.
+   Use the implemented features to test user authentication, customer creation, retrieval, deletion, and editing.
 
 ## Setting up `cors-anywhere`
 
