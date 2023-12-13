@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Customer - Sunbase Data Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="addCustomerScreen">
+        <h2>Customer Details</h2>
+        <form onsubmit="addCustomer(event)">
+            <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+            <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+            <input type="text" id="street" name="street" placeholder="Street">
+            <input type="text" id="address" name="address" placeholder="Address">
+            <input type="text" id="city" name="city" placeholder="City">
+            <input type="text" id="state" name="state" placeholder="State">
+            <input type="text" id="email" name="email" placeholder="Email">
+            <input type="text" id="phone" name="phone" placeholder="Phone">
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
